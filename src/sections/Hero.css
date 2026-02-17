@@ -1,0 +1,86 @@
+.hero {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-intro {
+  color: #2563eb;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.hero-name {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.hero-name span {
+  color: #2563eb;
+}
+
+.hero-role {
+  font-size: 24px;
+  font-weight: 500;
+  color: #4c89eb;
+  margin-bottom: 16px;
+}
+
+.hero-desc {
+  font-size: 16px;
+  color: #4b5563;
+  margin-bottom: 24px;
+  line-height: 1.7;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #ffffff;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background: #1e40af;
+}
+
+.btn-secondary {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.hero-note {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 40px;
+  }
+
+  .hero-name {
+    font-size: 36px;
+  }
+
+  .hero-role {
+    font-size: 20px;
+  }
+}

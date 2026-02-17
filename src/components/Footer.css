@@ -1,0 +1,38 @@
+.footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 40px 20px;
+  background: #a8a6a6b5;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-content p {
+  color: #1e1e1f;
+  margin: 6px 0 16px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.footer-links a {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.footer-copy {
+  font-size: 13px;
+  color: #77797a;
+}

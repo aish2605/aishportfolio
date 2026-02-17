@@ -1,0 +1,108 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgb(67, 65, 65);
+  border-bottom: 1px solid #e5e7eb;
+  color:white;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color:white;
+}
+
+/* Desktop links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: #f6f7fa;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #92aff8;
+}
+
+/* GitHub button */
+.github-btn {
+  padding: 6px 12px;
+  border: 1px solid #cdd8f1;
+  border-radius: 6px;
+  color: #2563eb;
+}
+
+/* Hamburger (hidden on desktop) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 24px;
+  height: 2px;
+  background: #1f2937;
+}
+
+/* ===================== */
+/* MOBILE RESPONSIVE */
+/* ===================== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    background: #ffffff;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    gap: 16px;
+    border-bottom: 1px solid #e5e7eb;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+.nav-links a {
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: #2563eb;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+

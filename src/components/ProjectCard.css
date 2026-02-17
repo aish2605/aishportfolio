@@ -1,0 +1,46 @@
+.project-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow:  0 0 10px rgba(81, 149, 237, 0.521);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.project-desc {
+  font-size: 15px;
+  color: #4b5563;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.project-tech {
+  font-size: 14px;
+  color: #374151;
+}
+
+.project-links {
+  margin-top: 16px;
+  display: flex;
+  gap: 20px;
+}
+
+.project-links a {
+  font-weight: 500;
+  color: #2563eb;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
