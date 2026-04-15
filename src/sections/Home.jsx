@@ -26,7 +26,7 @@ function Home() {
           </a>
 
           <a
-            href="../Aishwarya2003.pdf"
+            href="../Aishwaryajadhav2003.pdf"
             target="_blank"
             className="btn-secondary"
           >

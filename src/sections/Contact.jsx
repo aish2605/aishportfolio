@@ -15,6 +15,15 @@ function Contact() {
           https://github.com/aish2605
         </a>
       </p>
+      <p>
+        linkedIn:
+        <a
+          href="https://www.linkedin.com/in/gaishwarya-jadhav-9b1a2523b/"
+          target="_blank"
+        >
+          https://www.linkedin.com/in/gaishwarya-jadhav-9b1a2523b/
+        </a>
+      </p>
     </section>
   );
 }
