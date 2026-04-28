@@ -19,6 +19,7 @@ function Skills() {
                <span>Redux</span>
                 <span>Typescript</span>
                 <span>figma</span>
+                 <span>ARIA</span>
           </div>
         </div>
 
@@ -27,7 +28,7 @@ function Skills() {
           <div className="skill-tags">
             <span>Java</span>
              <span>Spring framework</span>
-               <span>MYSQL</span>
+                 <span>LLM</span>
                <span>Generative AI</span>
                  <span>AI Agent</span>
             <span>Spring Boot</span>
@@ -38,7 +39,7 @@ function Skills() {
                 <span>Servlet</span>
                  <span>ORM</span>
             <span>REST APIs</span>
-              <span>Jira</span>
+        
              <span>Thymeleaf</span>
             <span>JPA / Hibernate</span>
             <span>firebase</span>
@@ -62,10 +63,13 @@ function Skills() {
             <span>Git</span>
             <span>GitHub</span>
              <span>Maven</span>
-                <span>Intellij</span>
+                   <span>Jira</span>
+                <span>Intellij idea</span>
               <span>Gradle</span>
                   <span>eclipse</span>
-                  
+                   <span>ESLint</span>
+                    <span>Prettier</span>
+                     <span>Jira MCP</span>
             <span>Postman</span>
              <span>Copilot</span>
 <span>Docker</span>
