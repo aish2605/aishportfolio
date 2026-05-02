@@ -13,13 +13,15 @@ function Skills() {
             <span>JavaScript</span>
             <span>HTML</span>
             <span>CSS</span>
-             <span>APIs</span>
-             <span>BootStrap</span>
-              <span>Tailwind CSS</span>
-               <span>Redux</span>
-                <span>Typescript</span>
-                <span>figma</span>
-                 <span>ARIA</span>
+            <span>APIs</span>
+            <span>BootStrap</span>
+            <span>Tailwind CSS</span>
+            <span>Redux</span>
+            <span>Typescript</span>
+            <span>figma</span>
+            <span>ARIA</span>
+            <span>firebase</span>
+            <span>Jest</span>
           </div>
         </div>
 
@@ -27,25 +29,24 @@ function Skills() {
           <h4>Backend</h4>
           <div className="skill-tags">
             <span>Java</span>
-             <span>Spring framework</span>
-                 <span>LLM</span>
-               <span>Generative AI</span>
-                 <span>AI Agent</span>
+            <span>Spring framework</span>
+            <span>LLM</span>
+            <span>Generative AI</span>
+            <span>AI Agent</span>
             <span>Spring Boot</span>
-              <span>Microservices</span>
-             <span>Spring MVC</span>
-              <span>Spring JPA</span>
-               <span>Filter</span>
-                <span>Servlet</span>
-                 <span>ORM</span>
+            <span>Microservices</span>
+            <span>Spring MVC</span>
+            <span>Spring JPA</span>
+            <span>Filter</span>
+            <span>Servlet</span>
+            <span>ORM</span>
             <span>REST APIs</span>
-        
-             <span>Thymeleaf</span>
+            <span>Open AI</span>
+            <span>Gemini API</span>
+            <span>Thymeleaf</span>
             <span>JPA / Hibernate</span>
-            <span>firebase</span>
-             
-                
-                   
+
+            <span>Junit</span>
           </div>
         </div>
 
@@ -53,7 +54,7 @@ function Skills() {
           <h4>Database</h4>
           <div className="skill-tags">
             <span>MySQL</span>
-             <span>Oracle</span>
+            <span>Oracle</span>
           </div>
         </div>
 
@@ -62,18 +63,20 @@ function Skills() {
           <div className="skill-tags">
             <span>Git</span>
             <span>GitHub</span>
-             <span>Maven</span>
-                   <span>Jira</span>
-                <span>Intellij idea</span>
-              <span>Gradle</span>
-                  <span>eclipse</span>
-                   <span>ESLint</span>
-                    <span>Prettier</span>
-                     <span>Jira MCP</span>
+            <span>Maven</span>
+            <span>Jira</span>
+            <span>Intellij idea</span>
+            <span>Gradle</span>
+            <span>eclipse</span>
+            <span>ESLint</span>
+            <span>Prettier</span>
+            <span>Jira MCP</span>
             <span>Postman</span>
-             <span>Copilot</span>
-<span>Docker</span>
-                  <span>log4j</span>
+            <span>Copilot</span>
+            <span>Docker</span>
+            <span>log4j</span>
+            <span>Kubernetes</span>
+            <span>Playwright</span>
           </div>
         </div>
       </div>

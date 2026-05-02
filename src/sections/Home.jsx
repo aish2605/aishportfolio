@@ -10,14 +10,11 @@ function Home() {
           Aishwarya <span>Jadhav</span>
         </h1>
 
-        <h2 className="hero-role">
-          Full Stack Developer
-        </h2>
+        <h2 className="hero-role">Full Stack Developer</h2>
 
         <p className="hero-desc">
-          I build scalable full-stack web applications using
-          React, Spring Boot, and MySQL with a focus on clean
-          UI and reliable backend systems.
+          I build scalable full-stack web applications using React, Spring Boot,
+          and MySQL with a focus on clean UI and reliable backend systems.
         </p>
 
         <div className="hero-buttons">
@@ -26,7 +23,7 @@ function Home() {
           </a>
 
           <a
-            href="../Aishwaryajadhav2003.pdf"
+            href="../Aishwaryajadhav.pdf"
             target="_blank"
             className="btn-secondary"
           >
@@ -34,9 +31,7 @@ function Home() {
           </a>
         </div>
 
-        <p className="hero-note">
-          Open to Full Stack / Java Developer roles
-        </p>
+        <p className="hero-note">Open to Full Stack / Java Developer roles</p>
       </div>
     </section>
   );

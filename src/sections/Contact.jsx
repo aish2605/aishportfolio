@@ -8,20 +8,17 @@ function Contact() {
 
       <p>
         GitHub:
-        <a
-          href="https://github.com/aish2605"
-          target="_blank"
-        >
+        <a href="https://github.com/aish2605" target="_blank">
           https://github.com/aish2605
         </a>
       </p>
       <p>
-        linkedIn:
+        LinkedIn:
         <a
-          href="https://www.linkedin.com/in/gaishwarya-jadhav-9b1a2523b/"
+          href="https://www.linkedin.com/in/aishwarya-jadhav-706279304/"
           target="_blank"
         >
-          https://www.linkedin.com/in/gaishwarya-jadhav-9b1a2523b/
+          https://www.linkedin.com/in/aishwarya-jadhav-706279304/
         </a>
       </p>
     </section>
